@@ -9,7 +9,7 @@ public class LoginFrame extends JFrame {
     private JButton loginButton;
 
     public LoginFrame() {
-        setTitle("Cooperative Society Login");
+        setTitle("CT & LS Jos Login");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
