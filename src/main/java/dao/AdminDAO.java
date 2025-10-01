@@ -55,7 +55,7 @@ public class AdminDAO {
         }
     }
 
-    public Admin getAdminByUsername(String emailOrUsername) {
+    public Admin getAdminByUsername(String Username) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getAdminByUsername'");
     }
