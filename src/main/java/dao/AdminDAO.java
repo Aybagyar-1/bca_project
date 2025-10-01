@@ -54,4 +54,9 @@ public class AdminDAO {
             throw new RuntimeException("Error hashing password", e);
         }
     }
+
+    public Admin getAdminByUsername(String emailOrUsername) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAdminByUsername'");
+    }
 }

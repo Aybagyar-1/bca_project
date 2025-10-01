@@ -13,7 +13,7 @@ public class Member {
     private Date joinDate;
     private String status;
 
-    public Member(int i, String surname, String firstName, String middleName, String email,
+    public Member(int memberId, String surname, String firstName, String middleName, String email,
                  String phone, String password, Date joinDate, String status) {
         this.memberId = memberId;
         this.surname = surname;
@@ -28,6 +28,11 @@ public class Member {
 
     public Member(int int1, String string, String string2, String string3, String string4, String string5,
             String string6, java.sql.Date date, String string7) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public Member(String surname2, String firstName2, String middleName2, String email2, String phone2,
+            String password2, Date joinDate2, String status2) {
         //TODO Auto-generated constructor stub
     }
 
@@ -51,4 +56,3 @@ public class Member {
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
 }
-
