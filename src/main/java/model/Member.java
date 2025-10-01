@@ -13,7 +13,7 @@ public class Member {
     private Date joinDate;
     private String status;
 
-    public Member(int memberId, String surname, String firstName, String middleName, String email,
+    public Member(int i, String surname, String firstName, String middleName, String email,
                  String phone, String password, Date joinDate, String status) {
         this.memberId = memberId;
         this.surname = surname;
@@ -24,6 +24,11 @@ public class Member {
         this.password = password;
         this.joinDate = joinDate;
         this.status = status;
+    }
+
+    public Member(int int1, String string, String string2, String string3, String string4, String string5,
+            String string6, java.sql.Date date, String string7) {
+        //TODO Auto-generated constructor stub
     }
 
     // Getters and setters

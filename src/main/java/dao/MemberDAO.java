@@ -91,4 +91,9 @@ public class MemberDAO {
             throw new RuntimeException("Error hashing password", e);
         }
     }
-}
+
+    public Member getMemberByEmail(String emailOrUsername) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getMemberByEmail'");
+    }
+} 
